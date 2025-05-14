@@ -36,6 +36,12 @@ PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
+# 增加个人必备组件 KMS服务器 网络唤醒 UDPXY
+PACKAGES="$PACKAGES kmod-drm-kms-helper"
+PACKAGES="$PACKAGES etherwake"
+PACKAGES="$PACKAGES udpxy"
+PACKAGES="$PACKAGES luci-app-udpxy"
+PACKAGES="$PACKAGES luci-i18n-udpxy-zh-cn"
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
